@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> //para as funções (strcpy, strcmp)
+#include <string.h> //para as funções (strcspn, strcmp)
 
 #define TAM_STRING 30   //tam. máximo de cada string
 #define TAM_MAX 10      //tam. máximo de itens na lista
