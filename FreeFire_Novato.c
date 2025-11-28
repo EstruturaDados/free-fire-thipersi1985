@@ -87,7 +87,6 @@ int main() {
                 removeritens(ptritens, &cont_atual, texto);
                 printf("Pressione enter para continuar...\n");
                 getchar();
-
             break;
 
             case 3: // LISTAGEM DE LIVROS
@@ -110,7 +109,7 @@ int main() {
                 // a pausa é crucial para que o usuário veja a lista antes do proximo loop limpar a tela.
                 printf("Pressione enter para continuar...\n");
                 getchar(); // Esta função serve para ler um único caractere da entrada padrão (geralmente o teclado) e retorná-lo como um valor inteiro.
-                break;
+            break;
             
             case 0: // SAIR
                 printf("\nsaindo do sistema...\n");
